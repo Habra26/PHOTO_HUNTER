@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="fr">
 
-    <header>
-        HEADER
-    </header>
+  <head>
+    <?php include '../app/views/templates/partials/_head.php' ?>
+  </head>
 
-    <main>
-        MAIN 
-        <?php echo $content; ?>
-    </main>
+  <body class="bg-gray-300">
+    
+    <?php include '../app/views/templates/partials/_nav.php' ?>
 
-    <footer>
-        FOOTER
-    </footer>
+    <?php include '../app/views/templates/partials/_main.php' ?>
 
-</body>
+    <?php include '../app/views/templates/partials/_footer.php' ?>
+
+  </body>
+  
 </html>
